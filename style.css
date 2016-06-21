@@ -10,6 +10,7 @@ h1 {
   font-family: Helvetica, Arial, serif;
   border: 1px solid #000000;
   border-radius: 10px;
+  text-align: center;
 }
 
 h2 {
@@ -59,4 +60,12 @@ main {
 nav {
   text-decoration: none;
   color: #C71585;
+}
+
+#soulfood {
+  height: 300px;
+  background-image: url(images/Hot&Juicy.jpg);
+  background-size: width="500" height="300";
+  background-position: center;
+  background-repeat: no-repeat;
 }
