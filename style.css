@@ -1,21 +1,22 @@
 body {
   background-color: #E6E6FA;
   color: #191970;
+  font-family: Arial, Verdana, serif;
 }
 
 h1 {
-  background-color: #FFC0CB;
-  color: #191970;
+  background-color: #F4B2B2;
+  color: #AB4949;
+  font-family: Helvetica, Arial, serif;
+  border: 1px solid #000000;
+  border-radius: 10px;
 }
 
 h2 {
   background-color: #FFC0CB;
   color: #191970;
-}
-
-h3 {
-  background-color: #FFC0CB;
-  color: #191970;
+  font-family: Helvetica, Arial, serif;
+  text-shadow: 1px 1px 3px #1e1e1e;
 }
 
 .feature {
@@ -31,4 +32,31 @@ h3 {
 footer {
   font-size: small;
   font-style: italic;
+  background-image: url(images/backimage.jpg);
+  background-repeat: no-repeat;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+#location {
+  font-size: 90%;
+}
+
+.restaurant {
+  font-weight: bold;
+}
+
+main {
+  padding-top: 2px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  display: block;
+}
+
+nav {
+  text-decoration: none;
+  color: #C71585;
 }
