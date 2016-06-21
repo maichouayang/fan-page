@@ -1,7 +1,34 @@
-body { background-color: #D2B48C; 
-color: #000000}
-h1 { background-color: #F08080;
-     color: #000000; }
-h3 { background-color: #F08080;
-      color: #000000; }
+body {
+  background-color: #E6E6FA;
+  color: #191970;
+}
 
+h1 {
+  background-color: #FFC0CB;
+  color: #191970;
+}
+
+h2 {
+  background-color: #FFC0CB;
+  color: #191970;
+}
+
+h3 {
+  background-color: #FFC0CB;
+  color: #191970;
+}
+
+.feature {
+  color: #B22222;
+  background-color: #FFD700;
+}
+
+.companyname {
+  color: #000000;
+  font-weight: bold;
+}
+
+footer {
+  font-size: small;
+  font-style: italic;
+}
