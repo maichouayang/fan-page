@@ -1,22 +1,23 @@
 body {
   background-color: #E6E6FA;
-  color: #191970;
-  font-family: Arial, Verdana, serif;
+  color: #000080;
+  font-family: "Courier New Italic", "Times New Roman", serif;
+  background-image: url(images/background-image.jpg);
 }
 
 h1 {
-  background-color: #F4B2B2;
+  background-color: #FFFFFF;
   color: #AB4949;
-  font-family: Helvetica, Arial, serif;
+  font-family: "Times New Roman", Verdana, serif;
   border: 1px solid #000000;
   border-radius: 10px;
   text-align: center;
 }
 
 h2 {
-  background-color: #FFC0CB;
+  background-color: #FFFFFF;
   color: #191970;
-  font-family: Helvetica, Arial, serif;
+  font-family: "Times New Roman", Verdana, serif;
   text-shadow: 1px 1px 3px #1e1e1e;
 }
 
@@ -31,14 +32,14 @@ h2 {
 }
 
 footer {
-  font-size: small;
+  font-size: smaller;
   font-style: italic;
   background-image: url(images/backimage.jpg);
   background-repeat: no-repeat;
 }
 
 ul {
-  list-style-type: circle;
+  list-style-type: square;
 }
 
 #location {
@@ -57,15 +58,35 @@ main {
   display: block;
 }
 
-nav {
+a {
   text-decoration: none;
-  color: #C71585;
+  color: #000000;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 #soulfood {
   height: 300px;
   background-image: url(images/Hot&Juicy.jpg);
-  background-size: width="500" height="300";
+  background-size: 600px 300px;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+figcaption {
+  font-family: Helvetica, Arial, serif;
+  font-style: italic;
+  font-size: 10pt;
+}
+
+#polaroids figcaption {
+  text-align: center;
+  font-size: .8em
+}
+
+#polaroids figure {
+  width: 500px;
+  border: 5px solid #000000;
+  padding: 10px;
+  margin: auto;
 }
