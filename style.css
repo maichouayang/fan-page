@@ -5,20 +5,34 @@ body {
   background-image: url(images/background-image.jpg);
 }
 
-h1 {
-  background-color: #FFFFFF;
-  color: #AB4949;
-  font-family: "Times New Roman", Verdana, serif;
-  border: 1px solid #000000;
-  border-radius: 10px;
+header {
+  background-image: url(images/wynn.jpg);
+  height: 50px;
+  padding-top: 15px;
   text-align: center;
+  margin-bottom: 50px;
+}
+
+h1 {
+  color: #000080;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #FFFFFF;
+  opacity: 0.6;
+  font-size: 1.5em;
+  padding: 5px;
 }
 
 h2 {
   background-color: #FFFFFF;
   color: #191970;
+  text-align: center;
   font-family: "Times New Roman", Verdana, serif;
   text-shadow: 1px 1px 3px #1e1e1e;
+  text-transform: uppercase;
+  background-image: radial-gradient(#FFFFFF, #8B008B);
+  border: 1px solid #000000;
+  border-radius: 20px;
 }
 
 .feature {
@@ -34,8 +48,10 @@ h2 {
 footer {
   font-size: smaller;
   font-style: italic;
-  background-image: url(images/backimage.jpg);
+  text-align: center;
+  background-image: url(images/footerimage.png);
   background-repeat: no-repeat;
+  margin-left: 200px;
 }
 
 ul {
@@ -56,6 +72,8 @@ main {
   padding-bottom: 30px;
   padding-left: 30px;
   display: block;
+  margin-left: 200px;
+  width: 80%;
 }
 
 a {
@@ -89,4 +107,14 @@ figcaption {
   border: 5px solid #000000;
   padding: 10px;
   margin: auto;
+  background-color: #FFFFFF;
+}
+
+p {
+  text-indent: 5em;
+}
+
+nav {
+  float: left;
+  width: 150px;
 }
