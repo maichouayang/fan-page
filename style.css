@@ -1,43 +1,30 @@
-body {
-  background-color: #E6E6FA;
-  color: #000080;
+  body {
+  background-color: #057A96;
+  color: #191B1C;
   font-family: "Courier New Italic", "Times New Roman", serif;
-  background-image: url(images/background-image.jpg);
 }
 
 header {
-  background-image: url(images/wynn.jpg);
   height: 50px;
   padding-top: 15px;
-  text-align: center;
   margin-bottom: 50px;
 }
 
 h1 {
-  color: #000080;
+  color: #191B1C;
   font-weight: bold;
-  text-transform: uppercase;
-  background-color: #FFFFFF;
-  opacity: 0.6;
-  font-size: 1.5em;
-  padding: 5px;
+  text-align: center;
+  background-color: #255C69;
 }
 
 h2 {
-  background-color: #FFFFFF;
-  color: #191970;
-  text-align: center;
+  color: #191B1C;
   font-family: "Times New Roman", Verdana, serif;
-  text-shadow: 1px 1px 3px #1e1e1e;
-  text-transform: uppercase;
-  background-image: radial-gradient(#FFFFFF, #8B008B);
-  border: 1px solid #000000;
-  border-radius: 20px;
+  background-color: #185260;
 }
 
-.feature {
-  color: #B22222;
-  background-color: #FFD700;
+li {
+  list-style-type: none;
 }
 
 .companyname {
@@ -48,15 +35,9 @@ h2 {
 footer {
   font-size: smaller;
   font-style: italic;
-  text-align: center;
-  background-image: url(images/footerimage.png);
-  background-repeat: no-repeat;
-  margin-left: 200px;
+  margin: 50px;
 }
 
-ul {
-  list-style-type: square;
-}
 
 #location {
   font-size: 90%;
@@ -67,27 +48,17 @@ ul {
 }
 
 main {
-  padding-top: 2px;
-  padding-right: 30px;
-  padding-bottom: 30px;
-  padding-left: 30px;
-  display: block;
-  margin-left: 200px;
-  width: 80%;
+  margin: 50px;
 }
 
 a {
-  text-decoration: none;
   color: #000000;
-  font-weight: bold;
-  font-size: 20px;
 }
 
 #soulfood {
-  height: 300px;
+  height: 400px;
   background-image: url(images/Hot&Juicy.jpg);
-  background-size: 600px 300px;
-  background-position: center;
+  background-size: auto;
   background-repeat: no-repeat;
 }
 
@@ -97,24 +68,43 @@ figcaption {
   font-size: 10pt;
 }
 
-#polaroids figcaption {
-  text-align: center;
-  font-size: .8em
+@media only screen and (max-width: 64em) {
+  body {
+    margin: 0;
+    background-image: none;
+    background-color: #057A96;
+  }
+  main {
+    margin: 50px;
+  }
+  footer {
+    margin: 50px;
+  }
 }
 
-#polaroids figure {
-  width: 500px;
-  border: 5px solid #000000;
-  padding: 10px;
-  margin: auto;
-  background-color: #FFFFFF;
+@media only screen and (max-width: 37.5em) {
+  header {
+    padding-top: 1em;
+  }
+  main {
+    padding-bottom: 0.1em;
+    padding-top: 0.1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 90%;
+  }
+  h1 {
+    font-size: 1.5em;
+  }
+  #soulfood {
+    background-image: none;
+    height: 0;
+  }
+  #mobile {
+    display: inline;
+  }
+  #desktop {
+    display: none;
+  }
 }
 
-p {
-  text-indent: 5em;
-}
-
-nav {
-  float: left;
-  width: 150px;
-}
